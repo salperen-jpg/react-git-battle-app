@@ -1,7 +1,12 @@
 import React from 'react';
+import Forms from '../components/Forms';
 
 const Battle = () => {
-  return <div>Battle</div>;
+  return (
+    <>
+      <Forms />
+    </>
+  );
 };
 
 export default Battle;

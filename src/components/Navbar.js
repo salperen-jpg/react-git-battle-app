@@ -86,6 +86,23 @@ const Wrapper = styled.nav`
       cursor: pointer;
     }
   }
+  @media screen and (min-width: 992px) {
+    .toggle-btn {
+      display: none;
+    }
+    .nav-center {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+      }
+    }
+    .theme-button {
+      position: static;
+    }
+  }
 `;
 
 export default Navbar;

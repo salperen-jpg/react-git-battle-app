@@ -1,7 +1,7 @@
 /*
 FONT
 */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Pacifico&display=swap');
 
 /* 
 RESETTING
@@ -25,6 +25,7 @@ VARIABLES
   /* MORE COLOR HERE */
   /* FONTS */
   --primary-font: 'Lato', sans-serif;
+  --secondary-font: 'Pacifico', cursive;
   /* OTHERS */
   --transition: all 0.3s linear;
   --spacing: 0.25rem;

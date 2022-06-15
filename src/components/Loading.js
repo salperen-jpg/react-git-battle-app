@@ -12,7 +12,7 @@ const Loading = () => {
 export default Loading;
 
 const Wrapper = styled.section`
-  min-height: 30vh;
+  padding: 10rem 0;
   display: grid;
   place-items: center;
   .loading {
